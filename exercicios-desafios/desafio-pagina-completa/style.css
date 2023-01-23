@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'bebas';
+    src: url('../desafio-pagina-completa/fonte/BebasNeue-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: 'idroid';
+    src: url('../desafio-pagina-completa/fonte/idroid.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebe5c5;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to top, #14482b, #3cd882) ;
+    margin-bottom: 0px;
+    
+}
+
+header  p {
+    color:white;
+    font-size: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-shadow: 0px 2px 2px black;
+}
+ header > h1 {
+    display: inline;
+    color: white;
+    font-family: 'Bebas Neue', coursive, monospace;
+    font-size: 48px;
+    font-weight: medium;
+    font-style: normal;
+    height: 62px;
+    padding: 10px, 10px, 10px, 10px;
+    margin: auto;
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-shadow: 0px 2px 2px black;    
+}
+
+nav {
+   background-color: #14482b;
+   text-align: left;
+   padding-bottom: 10px;
+   
+   
+}
+
+nav a {
+   display: inline-flex;
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 5px 5px 5px 5px;
+}
+
+nav a:hover {
+   font-size: 18px;
+   background-color: #3cd882;
+   color: #14482b;
+   border-radius: 5px;
+   padding: 3px;
+
+}
+
+ main {
+    display: inline-block;
+    min-width: 300px;
+    max-width: 1000px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    background-color: white;
+    margin: auto;
+    padding: 0px;
+ }
+
+ main p {
+    text-decoration: none;
+    font-size: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+ article {
+   display: block;
+   margin: auto;
+   padding: 5px;
+    padding-top: 0px;
+    max-width: 1000px;
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.247);
+ }
+
+ h1#segundo {
+    font-family: 'idroid', coursive;
+    margin-top: 0px;
+    color: #14482b;
+    text-align: left;
+    font-size: 1.8em;
+    font-stretch: ultra-expanded;
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+ }
+
+ h2 {
+    font-family: 'idroid', coursive; 
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #84e1ad;
+    background-image: linear-gradient(to right, #84e1ad, white);
+    background-origin: border-box;
+    margin: 10px 0px 10px 0px;
+    color: #267c4a;
+    padding: 0px 0px 0px 0px;
+    
+ }
+
+ article > p {
+   display: inline-flex;
+   justify-content: baseline;
+    text-align: justify;
+    text-indent: 5px;
+    line-height: 2em;
+   }    
+
+  img {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    display: inline;
+    position: relative;
+  }
+
+  div.bugd {
+   display: grid;
+   justify-content: inherit;
+}
+  div.video {
+    position: relative;
+    background-color: #14482b;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    padding-bottom: 50%;
+  }
+
+  div.video > iframe {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%; 
+}
+  h3 {
+   background-color: #14482b;
+   margin: auto;
+   padding: 5px;
+   color: white;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+  }
+
+div.extra {
+   margin: auto;
+   padding: 0px;
+   text-indent: 5px;
+   background-color: #84e1ad;
+   max-width: 900px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.399);
+}
+
+aside {
+   margin-top: 10px;
+   text-align: justify;
+}  
+ ul {
+   columns: 2;
+   list-style-position: inside;
+   list-style-type: none;
+   line-height: normal;
+ }
+
+aside p {
+   margin: 10px;
+   padding: 5px;
+}
+
+main > p #mensagem {
+   text-align: center;
+}
+
+footer {
+   background-color: #14482b;
+   color: white;
+   margin: auto;
+   padding: 1px 0px 1px 0px;
+}
+
+footer p {
+   margin: 5px auto 5px auto;
+}
